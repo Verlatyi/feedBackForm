@@ -1,0 +1,85 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url(img/dor-znaki.png);
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 50px auto;
+    background-color: white;
+    max-width: 450px;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #25333c;
+    opacity: 0.95;
+}
+
+span{
+    font-size: 40px;
+    opacity: 1;
+}
+
+form{
+    opacity: 0.95;
+    padding: 50px;
+    height: 570px;
+    margin: 50px auto;
+    max-width: 450px;
+    background-color: white;
+}
+form > legend {
+    text-align: center;
+    font-size: 26px;
+    line-height: 51px;
+    margin-bottom: 20px;
+
+}
+form > div {
+    
+    position: relative;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+form > div > label {
+    line-height: 51px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+form > div > input[type="text"],
+form > div > input[type="email"] {
+    width: 100%;
+    border: 0;
+    padding: 20px 20px 20px 50px;
+    background: #eee;
+}
+form > div > input[type="text"]:focus,
+form > div > input[type="email"]:focus {
+    outline: 0;
+    background: lightyellow;
+    border: 1px solid black;
+}
+form > div > input[type='text']:valid,
+form > div > input[type='email']:valid {
+     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);;
+     background-size: 20px;
+     background-repeat: no-repeat;
+     background-position: 20px 20px;
+}
+
+form > button {
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    height: 45px;
+    background-color: #46e607;
+    font-size: 30px;
+    line-height: 22px;
+    cursor: pointer;
+    color: #ffffff;
+}
